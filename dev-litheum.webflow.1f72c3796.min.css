@@ -3310,6 +3310,20 @@ ul {
     border: 1px #000;
     position: relative
 }
+.pcs{
+    display: flex; flex-direction: column;justify-content: center;align-items: center; margin-top: 50px; font-size: 32px; font-weight: 900;
+}
+.pcs img{
+    margin-top: 80px;height: 150px;
+}
+@media screen and (max-width: 768px) { 
+    .pcs{
+        font-size: 24px;
+    }
+    .pcs img{
+        height: 100px;
+    }
+     }
 
 .proof-of-performance-section {
     background-color: var(--theme--background-yellow);
